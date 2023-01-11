@@ -46,7 +46,7 @@ $client = new Client([
 // crear el objeto scraper usando la FIEL
 $satScraper = new SatScraper(FielSessionManager::create($credential), new SatHttpGateway($client));
 
-$query = new QueryByFilters(new DateTimeImmutable('2023-01-10 18:00:00'), new DateTimeImmutable('2023-01-10 18:06:00'));
+$query = new QueryByFilters(new DateTimeImmutable('2023-01-10'), new DateTimeImmutable('2023-01-10'));
 $query
     ->setDownloadType(DownloadType::recibidos())
 #    ->setDownloadType(DownloadType::recibidos())                // en lugar de emitidos
