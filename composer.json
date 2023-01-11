@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phpcfdi/cfdi-sat-scraper": "^3.2"
+    }
+}
