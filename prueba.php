@@ -48,7 +48,7 @@ $satScraper = new SatScraper(FielSessionManager::create($credential), new SatHtt
 
 $query = new QueryByFilters(new DateTimeImmutable('2023-01-10'), new DateTimeImmutable('2023-01-10'));
 $query
-    ->setDownloadType(DownloadType::recibidos())
+    ->setDownloadType(DownloadType::emitidos())
 #    ->setDownloadType(DownloadType::recibidos())                // en lugar de emitidos
 #    ->setStateVoucher(StatesVoucherOption::vigentes())          // en lugar de todos
 #    ->setRfc(new RfcOption('EKU9003173C9'))                     // de este RFC específico
