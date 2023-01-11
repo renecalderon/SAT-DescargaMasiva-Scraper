@@ -2,3 +2,6 @@
 /vendor
 /storatge
 /composer.lock
+.env
+*.key
+*.cer

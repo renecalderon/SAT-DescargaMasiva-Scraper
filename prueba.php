@@ -25,9 +25,9 @@ use PhpCfdi\CfdiSatScraper\Filters\Options\RfcOption;
  * @var string $privateKey Contenido de la llave privada
  * @var string $passPhrase Contraseña de la llave privada
  */
-$certificateFile = "ATO0108161E1.cer";
-$privateKeyFile = "ATO0108161E1.key";
-$passphrase = 'ATO01021';
+$certificateFile = "archivo.cer";
+$privateKeyFile = "archivo.key";
+$passphrase = 'password';
 
 
 // crear la credencial
