@@ -1,6 +1,7 @@
 # do not include this files on git
 /vendor
-/storatge
+/storage
+/certificados
 /composer.lock
 .env
 *.key
